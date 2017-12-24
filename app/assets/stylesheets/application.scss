@@ -25,6 +25,8 @@ body {
   height: 100%;
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background-image: image-url('regbackg.jpg');
+  background-attachment: fixed;
 }
 
 .alert {
@@ -175,6 +177,7 @@ body {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 .log-in{
@@ -182,10 +185,12 @@ body {
   margin-right: auto;
   text-align:center;
   border: none;
+  
 }
 
 .panel {
   border-radius: 8px;
+  
 }
 
 .panel-heading{
