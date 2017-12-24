@@ -10,7 +10,7 @@ feature 'Creating posts' do
     click_link 'New Post'
     attach_file('post_image', "spec/files/images/coffee.jpg")
     fill_in 'post_caption', with: "nom nom nom #coffeetime"
-    click_button 'Create Post'
+    click_button 'Kaydet'
     expect(page).to have_content("#coffeetime")
     expect(page).to have_css("img[src*='coffee']")
     expect(page).to have_content('Arnie')
@@ -19,7 +19,7 @@ feature 'Creating posts' do
     visit '/'
     click_link 'New Post'
     fill_in 'post_caption', with: "No picture because YOLO"
-    click_button 'Create Post'
+    click_button 'Kaydet'
     expect(page).to have_content("Upload an image: can't be blank")
   end
 end

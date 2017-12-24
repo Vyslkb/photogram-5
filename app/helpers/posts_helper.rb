@@ -30,7 +30,7 @@ module PostsHelper
   end
 
   def like_plural(votes)
-    return ' like this' if votes.count > 1
-    ' likes this'
+    return ' bunu beğendi' if votes.count > 1
+    ' bunu beğendi'
   end
 end
