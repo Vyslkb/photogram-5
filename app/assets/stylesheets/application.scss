@@ -46,14 +46,14 @@ body {
 }
 
 .navbar-default {
-  background-color: #fff;
+  background-color: red;
   .navbar-nav li a {
     color: #125688;
   }
 }
 
 .navbar-container {
-  max-width: 640px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ body {
 .posts-wrapper {
   padding-top: 40px;
   margin: 0 auto;
-  max-width: 642px;
+  max-width: 900px;
   width: 100%;
 }
 
@@ -84,12 +84,16 @@ body {
     line-height: 18px;
     .user-name, .time-ago {
       display: inline;
+
     }
     .user-name {
-      font-weight: 500;
+      color: #000000;
+      font-weight: 800;
+      font-style: bold;
+      
     }
     .time-ago {
-      color: #A5A7AA;
+      color: #000000;
       float: right;
     }
   }
